@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 
 /**
- * @program: design-pattern-practice
- * @description: 书架，集合的实现类
- * @author: duanbt
- * @create: 2018-11-25 22:07
+ * @author duanbt
+ * @version 1.0
  **/
 public class BookShelf implements Aggregate<Book> {
     private ArrayList<Book> books;

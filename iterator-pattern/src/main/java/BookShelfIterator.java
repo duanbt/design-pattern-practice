@@ -1,8 +1,6 @@
 /**
- * @program: design-pattern-practice
- * @description:
- * @author: duanbt
- * @create: 2018-11-25 22:14
+ * @author duanbt
+ * @version 1.0
  **/
 public class BookShelfIterator implements Iterator<Book> {
 

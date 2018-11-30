@@ -1,4 +1,4 @@
-# Iterator 模式
+# Iterator模式——一个一个遍历
 ## 角色
 - Iterator（迭代器接口）
     遍历元素的接口

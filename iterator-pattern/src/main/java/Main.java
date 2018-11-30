@@ -1,8 +1,6 @@
 /**
- * @program: design-pattern-practice
- * @description: 测试类
- * @author: duanbt
- * @create: 2018-11-25 22:19
+ * @author duanbt
+ * @version 1.0
  **/
 public class Main {
 
