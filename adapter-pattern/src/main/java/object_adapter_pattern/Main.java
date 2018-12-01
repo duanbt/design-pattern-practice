@@ -1,14 +1,15 @@
-package class_adapter_pattern;
+package object_adapter_pattern;
 
 /**
- * 请求者，使用者，调用目标对象方法
+ * 调用者
+ *
  * @author duanbt
  * @version 1.0
  **/
 public class Main {
 
     public static void main(String[] args) {
-        Print print = new PrintBanner("Hello");
+        Print print = new PrintBanner("hello");
         print.printStrong();
         print.printWeak();
     }
