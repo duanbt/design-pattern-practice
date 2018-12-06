@@ -1,0 +1,3 @@
+习题：
+使用Adapter模式编写一个将properties集合保存至文件的FileProperties类，
+这个类就是适配器。
