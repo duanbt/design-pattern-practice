@@ -12,7 +12,7 @@ public class IDCard extends Product {
     @Getter
     private String owner;
 
-    public IDCard(String owner) {
+    IDCard(String owner) {
         System.out.println("制作" + owner + "的ID卡");
         this.owner = owner;
     }
