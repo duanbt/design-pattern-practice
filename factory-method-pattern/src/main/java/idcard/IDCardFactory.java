@@ -4,8 +4,8 @@ import framework.Factory;
 import framework.Product;
 import lombok.Getter;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * ConcreteCreator
@@ -14,14 +14,16 @@ import java.util.List;
  **/
 public class IDCardFactory extends Factory {
     @Getter
-    private List<String> owners = new ArrayList<>();
+    private Map<Integer, String> database = new HashMap<>();
+    private int serial = 100;
     @Override
-    protected Product createProduct(String owner) {
-        return new IDCard(owner);
+    protected synchronized Product createProduct(String owner) {
+        return new IDCard(owner, serial++);
     }
 
     @Override
     protected void registerProduct(Product product) {
-        owners.add(((IDCard)product).getOwner());
+        IDCard idCard = (IDCard) product;
+        database.put(idCard.getSerial(), idCard.getOwner());
     }
 }
