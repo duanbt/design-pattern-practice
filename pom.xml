@@ -12,6 +12,7 @@
         <module>iterator-pattern</module>
         <module>adapter-pattern</module>
         <module>template-method-pattern</module>
+        <module>factory-method-pattern</module>
     </modules>
 
     <properties>
