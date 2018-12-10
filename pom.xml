@@ -13,6 +13,7 @@
         <module>adapter-pattern</module>
         <module>template-method-pattern</module>
         <module>factory-method-pattern</module>
+        <module>singleton-pattern</module>
     </modules>
 
     <properties>

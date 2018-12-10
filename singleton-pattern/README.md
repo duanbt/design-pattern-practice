@@ -1,0 +1,1 @@
+# Singleton 模式
