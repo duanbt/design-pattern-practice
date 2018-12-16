@@ -15,6 +15,7 @@
         <module>factory-method-pattern</module>
         <module>singleton-pattern</module>
         <module>prototype-pattern</module>
+        <module>builder-pattern</module>
     </modules>
 
     <properties>
