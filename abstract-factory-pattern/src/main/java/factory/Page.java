@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * @author duanbt
  * @version 1.0
  **/
-public abstract class Page {
+public abstract class Page implements HTMLAble{
     protected String title;
     protected String author;
     protected ArrayList<Item> content = new ArrayList<>();
@@ -36,5 +36,4 @@ public abstract class Page {
         }
     }
 
-    public abstract String makeHTML();
 }

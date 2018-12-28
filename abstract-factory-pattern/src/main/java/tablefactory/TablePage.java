@@ -24,7 +24,7 @@ public class TablePage extends Page {
                 .append(this.title)
                 .append("</h1>\n")
                 .append("    <table width=\"80%\" border=\"3\">\n");
-        this.content.forEach(item -> buffer.append("        <tr>").append(item.makeHtml()).append("</tr>\n"));
+        this.content.forEach(item -> buffer.append("        <tr>").append(item.makeHTML()).append("</tr>\n"));
         buffer.append("    </table>\n" +
                 "</body>\n" +
                 "</html>");

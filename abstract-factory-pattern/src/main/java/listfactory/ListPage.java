@@ -19,7 +19,7 @@ public class ListPage extends Page {
         buffer
                 .append("<html>\n").append("<head><title>").append(title).append("</title></head>\n")
                 .append("<body>\n").append("<h1>").append(title).append("</h1>\n").append("<ul>");
-        this.content.forEach(item -> buffer.append(item.makeHtml()));
+        this.content.forEach(item -> buffer.append(item.makeHTML()));
         buffer
                 .append("</ul>\n")
                 .append("<hr><address>")

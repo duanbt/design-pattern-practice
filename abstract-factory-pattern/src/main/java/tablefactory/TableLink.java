@@ -12,7 +12,7 @@ public class TableLink extends Link {
     }
 
     @Override
-    public String makeHtml() {
+    public String makeHTML() {
         return "<td><a href='"+this.url+"'>"+this.caption+"</a></td>\n";
     }
 }

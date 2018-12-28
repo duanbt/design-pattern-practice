@@ -14,7 +14,7 @@ public class ListLink extends Link {
     }
 
     @Override
-    public String makeHtml() {
+    public String makeHTML() {
         return "    <li><a href='" + this.url + "'>" + this.caption + "</a></li>\n";
     }
 }

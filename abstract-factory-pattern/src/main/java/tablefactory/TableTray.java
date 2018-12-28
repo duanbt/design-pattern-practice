@@ -12,7 +12,7 @@ public class TableTray extends Tray {
     }
 
     @Override
-    public String makeHtml() {
+    public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
         buffer
                 .append("<td>\n")
@@ -25,7 +25,7 @@ public class TableTray extends Tray {
                 .append("</b></td>\n")
                 .append("        </tr>\n")
                 .append("        <tr>\n");
-        this.tray.forEach(item -> buffer.append(item.makeHtml()));
+        this.tray.forEach(item -> buffer.append(item.makeHTML()));
         buffer
                 .append("        </tr>\n")
                 .append("    </table>\n")

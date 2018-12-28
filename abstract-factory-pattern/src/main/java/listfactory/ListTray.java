@@ -14,13 +14,13 @@ public class ListTray extends Tray {
     }
 
     @Override
-    public String makeHtml() {
+    public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
         buffer
                 .append("<li>\n")
                 .append(this.caption).append("\n")
                 .append("    <ul>\n");
-        this.tray.forEach(item -> buffer.append(item.makeHtml()));
+        this.tray.forEach(item -> buffer.append(item.makeHTML()));
         buffer
                 .append("    </ul>\n")
                 .append("</li>\n");
