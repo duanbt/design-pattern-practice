@@ -17,6 +17,7 @@
         <module>prototype-pattern</module>
         <module>builder-pattern</module>
         <module>abstract-factory-pattern</module>
+        <module>bridge-pattern</module>
     </modules>
 
     <properties>
