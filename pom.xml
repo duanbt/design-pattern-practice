@@ -18,6 +18,7 @@
         <module>builder-pattern</module>
         <module>abstract-factory-pattern</module>
         <module>bridge-pattern</module>
+        <module>strategy-pattern</module>
     </modules>
 
     <properties>
