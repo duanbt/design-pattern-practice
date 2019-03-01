@@ -22,6 +22,7 @@
         <module>composite-pattern</module>
         <module>decorator-pattern</module>
         <module>visitor-pattern</module>
+        <module>chain-of-responsibility-pattern</module>
     </modules>
 
     <properties>
