@@ -23,6 +23,7 @@
         <module>decorator-pattern</module>
         <module>visitor-pattern</module>
         <module>chain-of-responsibility-pattern</module>
+        <module>facade-pattern</module>
     </modules>
 
     <properties>
