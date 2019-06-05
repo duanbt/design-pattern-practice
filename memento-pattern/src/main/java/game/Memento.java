@@ -1,5 +1,6 @@
 package game;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +10,7 @@ import java.util.List;
  * @author duanbt
  * @version 1.0
  **/
-public class Memento {
+public class Memento implements Serializable {
     //所持金钱
     int money;
     //获得的水果
