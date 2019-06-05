@@ -26,6 +26,7 @@
         <module>facade-pattern</module>
         <module>mediator-pattern</module>
         <module>observer-pattern</module>
+        <module>memento-pattern</module>
     </modules>
 
     <properties>
