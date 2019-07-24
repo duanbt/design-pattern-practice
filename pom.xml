@@ -28,6 +28,7 @@
         <module>observer-pattern</module>
         <module>memento-pattern</module>
         <module>state-pattern</module>
+        <module>flyweight-pattern</module>
     </modules>
 
     <properties>
