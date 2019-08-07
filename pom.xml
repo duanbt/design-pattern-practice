@@ -29,6 +29,7 @@
         <module>memento-pattern</module>
         <module>state-pattern</module>
         <module>flyweight-pattern</module>
+        <module>proxy-pattern</module>
     </modules>
 
     <properties>
