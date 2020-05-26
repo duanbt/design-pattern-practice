@@ -30,6 +30,8 @@
         <module>state-pattern</module>
         <module>flyweight-pattern</module>
         <module>proxy-pattern</module>
+        <module>command-pattern</module>
+        <module>interpreter-pattern</module>
     </modules>
 
     <properties>
